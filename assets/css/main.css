@@ -21,6 +21,16 @@ body #bg {
   z-index: -1;
 }
 
+body #bg1 {
+  background-color: #7ab955;
+  -webkit-clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 65% 35%);
+          clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 65% 35%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+}
+
 body #bg2 {
   background-color: #7ab955;
   -webkit-clip-path: polygon(-5% 0, 225% 85%, 0% 25%, 0 0);
@@ -31,14 +41,24 @@ body #bg2 {
   z-index: -1;
 }
 
+body #bg3 {
+  background-color: #7ab955;
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0% 100%, -6% 0);
+          clip-path: polygon(100% 0, 100% 50%, 0% 100%, -6% 0);
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  z-index: -1;
+}
+
 body #primary {
   text-align: center;
-  padding: 110% auto;
+  padding: 110% auto 0;
 }
 
 @media (min-width: 840px) {
   body #primary {
-    padding-top: 10%;
+    padding: 20%;
   }
 }
 
@@ -76,7 +96,7 @@ body #primary button {
 
 @media (min-width: 840px) {
   #Discover, #Support, #Buy {
-    padding-top: 30%;
+    padding-top: 15%;
   }
 }
 
