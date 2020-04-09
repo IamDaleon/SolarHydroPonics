@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+body #bg {
+  background-image: url("../imgs/varietygreen.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 95%, 0 0);
+          clip-path: polygon(100% 0, 100% 100%, 0% 95%, 0 0);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body #bg2 {
+  background-color: #7ab955;
+  -webkit-clip-path: polygon(-5% 0, 225% 85%, 0% 25%, 0 0);
+          clip-path: polygon(-5% 0, 225% 85%, 0% 25%, 0 0);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+body #primary {
+  text-align: center;
+  padding: 110% auto;
+}
+
+@media (min-width: 840px) {
+  body #primary {
+    padding-top: 10%;
+  }
+}
+
+body #primary h1 {
+  font-size: 3.5em;
+  color: white;
+  text-transform: uppercase;
+}
+
+body #primary p {
+  font-size: 1.25em;
+  color: white;
+  text-transform: uppercase;
+}
+
+body #primary button {
+  color: white;
+  background-color: #005Dff;
+  border-radius: 20px;
+  width: 35%;
+  height: 75px;
+  font-size: 1.2em;
+}
+
+@media (min-width: 840px) {
+  body #primary button {
+    width: 13.5%;
+  }
+}
+
+#Discover, #Support, #Buy {
+  padding-top: 110%;
+  text-align: center;
+}
+
+@media (min-width: 840px) {
+  #Discover, #Support, #Buy {
+    padding-top: 30%;
+  }
+}
+
+#Buy {
+  padding-bottom: 20%;
+}
+
+.btnspacer {
+  padding-top: 3.5%;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
