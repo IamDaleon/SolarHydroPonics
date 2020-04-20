@@ -17,4 +17,4 @@
     <img src="https://github.com/IamDaleon/SolarHydroPonics/blob/master/img/first_connect.jpeg" width="550" title="First Connection">
     <img src="https://github.com/IamDaleon/SolarHydroPonics/blob/master/img/connected.jpg" width="550" title="First Initalization">
       <img src="https://github.com/IamDaleon/SolarHydroPonics/blob/master/img/display.jpg" width="550" title="First Readout">
-  </p>
+  </p>.
