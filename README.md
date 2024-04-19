@@ -1,8 +1,6 @@
 <div align='center'> 
   <h1>SOHYPON</h1>
   <h2 style="color: black; font-weight: 700; text-transform: uppercase; text-shadow: 1px 1px 2px gray, 0 0 1em white, 0 0 0.2em gray;">This is a current work in progress project.</h2>
-[!IMPORTANT]
-This is a current work in progress project.
 
 <h3><strong>Product List</strong></h3>
 <div>
