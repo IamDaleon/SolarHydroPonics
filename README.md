@@ -55,7 +55,7 @@ Raspberry Pi 5
 <br />(App and FrontEnd Host)
 <br />Hosts the user interface and supports backend processing.
  </div>
-
+<hr />
   <h3 style="font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem;">Product List</h3>
 
   <div style="max-width: 800px; margin: 0 auto;">
