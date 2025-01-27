@@ -4,6 +4,58 @@
     This is a current work in progress project.
   </h2>
 
+ <div>
+   Sensors 
+  <br />(pH, Air Quality, Distance)
+  <br />Collect environmental data.
+
+↓
+
+Arduino R4 WiFi 
+<br />(Data Processing)
+<br />Processes and sends sensor data to the backend.
+
+↓
+
+NestJS 
+<br />(Backend Framework)
+<br />Manages server-side logic, processes data, and interacts with the database.
+
+↓
+
+ORM
+<br />(Object Relational Mapper)
+<br />Handles communication between the backend (NestJS) and the database.
+
+↓
+
+Database
+<br />(PostgreSQL)
+<br />Stores data for analysis, monitoring, and retrieval.
+
+↑
+ORM
+<br />(Object Relational Mapper)
+<br />Handles communication between the backend (NestJS) and the database.
+↑
+
+NestJS 
+<br />(Backend Framework)
+<br />Manages server-side logic, processes data, and interacts with the database.
+
+↑
+
+Frontend 
+<br />(React)
+<br />Displays data to users through a responsive interface.
+
+↓
+
+Raspberry Pi 5 
+<br />(App and FrontEnd Host)
+<br />Hosts the user interface and supports backend processing.
+ </div>
+
   <h3 style="font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem;">Product List</h3>
 
   <div style="max-width: 800px; margin: 0 auto;">
@@ -25,9 +77,10 @@
             <li>
               <h4 style="text-decoration: underline;">Sensors</h4>
               <ul>
-                <li>3 x Voltage Dividers</li>
+                <!-- <li>3 x Voltage Dividers</li> -->
+                <!-- <li>Air Quality Sensor</li> -->
+                <li>Adafruit BME680</li>
                 <li>pH Sensor</li>
-                <li>Air Quality Sensor</li>
                 <li>Ultrasonic Distance Sensor (HC-SR04)</li>
               </ul>
             </li>
@@ -36,8 +89,8 @@
               <ul>
                 <li>300W Solar Panel</li>
                 <li>Charge Controller</li>
-                <li>2000W Inverter</li>
-                <li>2 x 12V Batteries</li>
+                <!-- <li>2000W Inverter</li> -->
+                <li>2 x 12V Lead Acid Batteries | 200AH (each)</li>
                 <li>12V Water Pump</li>
               </ul>
             </li>
